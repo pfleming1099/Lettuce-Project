@@ -1,0 +1,4 @@
+let f = function (x) 
+      rectangle(x) ~ ((triangle(x) +^+ triangle(x)) ~ circle(x))
+      in 
+    (f(1) +|+ f(2)) +^+ f(3)

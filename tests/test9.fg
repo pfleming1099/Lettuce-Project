@@ -1,0 +1,22 @@
+let pi = 3.1415 in
+let delta = pi/20 in
+letrec  mk_arc = function (r) function (start) function (end) function (delta) (
+        let seg_len = r * delta in
+        let line = vline(seg_len)// (1.0 * start) in
+        let translated_line = line -> [r*cos(start), r*sin(start)] in 
+        if (start + delta >= end)
+        then translated_line
+        else translated_line ~ mk_arc (r) (start+delta) (end) (delta)
+  ) in
+let arc = fun3 (r) (start) (end) (
+    let delta = (end - start)/40 in
+    mk_arc (r) (start) (end) (delta)
+ ) in 
+let pat = ( let l1 = hline(3) // delta  in
+            let l2 = hline(3) // (-1.0 * delta) in
+            let l3 = arc (0.465)(-3.1415/2) (3.1415/2) in
+              l1 ~ l2 ~ (l3 -> [3, 0])
+            )
+            in
+letrec  mk_rot = function (n) if (n == 0) then pat else (pat // (2*n*delta))~mk_rot(n-1) in 
+ mk_rot (20) ~ circle(1)

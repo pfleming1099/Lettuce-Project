@@ -1,0 +1,10 @@
+letrec hilbert = function (n) (
+               if (n <= 0)
+               then ref_x(vline(1)~hline(1)~vline(-1.0))
+               else (
+                   let h = hilbert (n-1) in
+                   let h1 = (h // (3.1415/2)) in
+                   ref_x(ref_y(h1) ~ vline(1) ~ h ~ hline(1) ~ h ~ vline(-1)~ h1)
+               )
+               )
+         in hilbert(5)

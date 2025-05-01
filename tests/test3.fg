@@ -1,0 +1,13 @@
+let piBy3 = 3.1415/3 in
+  letrec foo = function (j) ( function  (len) (
+                if (j <= 0)
+                then (
+                   let l = hline(len) in
+                       l +|+ (l // piBy3) +|+ (l // -1.0 * piBy3) +|+ l
+                ) else (
+                   let l = foo (j-1) (len/3) in
+                       l +|+ (l // piBy3) +|+ (l // -1.0 * piBy3) +|+ l
+                )
+              ) )
+      in
+        foo (4) (243)

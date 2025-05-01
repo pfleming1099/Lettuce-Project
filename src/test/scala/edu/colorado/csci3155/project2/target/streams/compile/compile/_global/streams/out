@@ -1,0 +1,305 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.funsuite._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:6:27: not found: type AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass CanvasTests extends AnyFunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:18:32: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m    def comparePolygons(poly1: Polygon, poly2: Polygon): Double = (poly1, poly2) match {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:18:48: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m    def comparePolygons(poly1: Polygon, poly2: Polygon): Double = (poly1, poly2) match {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:19:15: not found: value Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        case (Polygon(lst1), Polygon(lst2)) => {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:19:30: not found: value Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        case (Polygon(lst1), Polygon(lst2)) => {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:25:30: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m    def compareCircles(cir1: MyCircle, cir2: MyCircle) = (cir1, cir2) match {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:25:46: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m    def compareCircles(cir1: MyCircle, cir2: MyCircle) = (cir1, cir2) match {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:26:15: not found: value MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        case (MyCircle( (x1: Double, y1: Double), r1: Double), MyCircle((x2, y2), r2)) => {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:26:64: not found: value MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        case (MyCircle( (x1: Double, y1: Double), r1: Double), MyCircle((x2, y2), r2)) => {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:27:42: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: Double[0m
+[0m[[0m[31merror[0m] [0m[0m            math.max(distance((x1, y1), (x2, y2)), math.abs(r1-r2))[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:27:46: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: Double[0m
+[0m[[0m[31merror[0m] [0m[0m            math.max(distance((x1, y1), (x2, y2)), math.abs(r1-r2))[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:31:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Test Bounding Box with Polygon ") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:33:24: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly = new Polygon(pointsList)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:36:23: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc = new MyCanvas(List(poly))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:41:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Test Bounding Box with Circle ") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:42:23: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val cir = new MyCircle((-2.0, 3.0), 1.0)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:45:23: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc = new MyCanvas(List(cir))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:50:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Test Bounding Box with two circles and one polygon"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:51:25: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val cir1  = new MyCircle((-1.0, 1.0), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:52:24: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val cir2 = new MyCircle((1.0, 2.0), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:53:25: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly1 = new Polygon(List((0,0.5), (-0.5,1), (-0.25, 2.1)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:57:23: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc = new MyCanvas(List(cir1, cir2, poly1))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:62:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Test Overlap of two figures"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:63:25: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val cir1  = new MyCircle((-1.0, 1.0), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:64:24: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val cir2 = new MyCircle((1.0, 2.0), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:65:25: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly1 = new Polygon(List((0,0.5), (-0.5,1), (-0.25, 2.1)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:66:24: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val cir3 = new MyCircle((-1.0, 1.0), 2.0 )[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:67:25: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly4 = new Polygon(List((1.5, 2.5), (1.1, 2.1), (1,2), (2,3)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:68:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc1 = new MyCanvas(List(cir1, cir2, poly1))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:69:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc2 = new MyCanvas(List(cir3, poly4))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:79:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Test Place Right"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:80:25: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val cir1  = new MyCircle((-1.0, 1.0), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:81:25: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly1 = new Polygon(List((1,1), (2,1), (1.5, 0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:82:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc1 = new MyCanvas(List(cir1))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:83:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc2 = new MyCanvas(List(poly1))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:85:34: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val shiftedPolygon = new Polygon(List((-0.5,1.5), (0.5,1.5), (0,0.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:93:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Test Place Right2"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:94:26: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly2  = new Polygon(List((0,0), (0,1), (1,1), (1,0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:95:25: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly1 = new Polygon(List((1,1),  (1.5, 0), (2, 1), (-1.5, 0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:96:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc2 = new MyCanvas(List(poly2))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:97:23: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc1= new MyCanvas(List(poly1))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:99:34: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val shiftedPolygon = new Polygon(List((3.5,1),  (4, 0), (4.5, 1), (1, 0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:105:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test ("Test Place Right3") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:106:25: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val circ1 = new MyCircle((1.5, 1), 1)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:107:25: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val circ2 = new MyCircle((0,0),3)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:108:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc1 = new MyCanvas(List(circ1))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:109:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc2 = new MyCanvas(List(circ2))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:111:32: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val shiftedCircle= new MyCircle((5.5,3),3)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:116:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Test Place Top"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:117:25: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val cir1  = new MyCircle((-1.0, 1.0), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:118:25: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly1 = new Polygon(List((1,1), (2,1), (1.5, 0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:119:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc1 = new MyCanvas(List(cir1))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:120:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc2 = new MyCanvas(List(poly1))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:122:34: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val shiftedPolygon = new Polygon(List((-1.5,2.5), (-0.5,2.5), (-1,1.5)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:128:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Test Place Top2"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:129:26: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly2  = new Polygon(List((0,0), (0,1), (1,1), (1,0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:130:25: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly1 = new Polygon(List((1,1),  (1.5, 0), (2, 1), (-1.5, 0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:131:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc2 = new MyCanvas(List(poly2))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:132:23: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc1= new MyCanvas(List(poly1))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:134:34: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val shiftedPolygon = new Polygon(List((2.5,2),  (3, 1), (3.5, 2), (0, 1)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:140:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Test Place Top3"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:141:27: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m          val circ1 = new MyCircle((1.5, 1), 1)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:142:25: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val circ2 = new MyCircle((0,0),3)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:143:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc1 = new MyCanvas(List(circ1))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:144:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc2 = new MyCanvas(List(circ2))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:146:32: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val shiftedCircle= new MyCircle((3.5,5),3)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:151:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Test Rotate"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:152:25: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val cir1  = new MyCircle((-1.0, 1.0), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:153:25: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly1 = new Polygon(List((1,1), (2,1), (1.5, 0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:154:23: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc = new MyCanvas(List(cir1, poly1))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:158:30: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        def reqdCircle = new MyCircle((-1.3660198,0.366046),0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:165:28: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val reqdPoly = new Polygon(List((0.36604,1.3660), (1.2320,1.8660), (1.2990,0.7499)))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:171:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Test Translate") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:172:24: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val cir1 = new MyCircle((-1.0, 1.0), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:173:25: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly1 = new Polygon(List((1, 1), (2, 1), (1.5, 0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:174:23: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc = new MyCanvas(List(cir1, poly1))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:176:30: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val reqdCircle = new MyCircle((0.25, 3.25), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:177:28: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val reqdPoly = new Polygon(List((2.25, 3.25), (3.25, 3.25), (2.75, 2.25)))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:192:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("test reflection #1"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:193:25: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val circ1 = new MyCircle((-1, 1), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:194:25: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly1 = new Polygon(List((0, 0), (0, -1), (5,-1), (5,3)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:195:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc1 = new MyCanvas(List(circ1, poly1))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:198:33: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val reflectedCirc = new MyCircle((-1, -1), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:199:33: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val reflectedPoly = new Polygon(List((0,0), (0,1), (5,1), (5,-3)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:204:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("test reflection #2"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:205:25: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val circ1 = new MyCircle((-1, 1), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:206:25: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val poly1 = new Polygon(List((0, 0), (0, -1), (5,-1), (5,3)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:207:24: not found: type MyCanvas[0m
+[0m[[0m[31merror[0m] [0m[0m        val myc1 = new MyCanvas(List(circ1, poly1))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:210:33: not found: type MyCircle[0m
+[0m[[0m[31merror[0m] [0m[0m        val reflectedCirc = new MyCircle((1, 1), 0.5)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:211:33: not found: type Polygon[0m
+[0m[[0m[31merror[0m] [0m[0m        val reflectedPoly = new Polygon(List((0,0), (0,-1), (-5,-1), (-5,3)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/CanvasTests.scala:216:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("test scale function"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/InterpreterTests.scala:4:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.funsuite._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/InterpreterTests.scala:7:32: not found: type AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass InterpreterTests extends AnyFunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/InterpreterTests.scala:14:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Program 1")  {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/InterpreterTests.scala:15:17: not found: value TestPrograms[0m
+[0m[[0m[31merror[0m] [0m[0m        val s = TestPrograms.program1()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/InterpreterTests.scala:16:18: not found: value TestPrograms[0m
+[0m[[0m[31merror[0m] [0m[0m        val v1 = TestPrograms.parseAndInterpretProgram(s)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/InterpreterTests.scala:18:18: not found: value FigValue[0m
+[0m[[0m[31merror[0m] [0m[0m            case FigValue(canvas) => {[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/InterpreterTests.scala:27:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("Program 2") {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jovyan/CSCI 3155/project2_student_fall23/src/test/scala/edu/colorado/csci3155/project2/InterpreterTests.scala:28:17: not found: value TestPrograms[0m
+[0m[[0m[31merror[0m] [0m[0m        val s = TestPrograms.program2()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m100 errors found[0m

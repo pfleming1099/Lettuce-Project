@@ -1,0 +1,15 @@
+let t = triangle(0.4) in
+ let ang = 3.1415/3 in
+   let hex = t ~ (t//ang) ~ (t // (2*ang)) ~ (t // (3 *ang)) ~ (t // 4*ang) ~ (t//(5*ang)) ~ (circle(0.2)) in
+     let place_hex = function (c) (hex -> c ) in
+        letrec place_all = function (i) function (j) (
+               if ( i <= 0 && j <= 0)
+               then place_hex ([i,j])
+               else (
+                  let next_i = if ( j == 0) then i-1 else i in
+                  let next_j = if ( j == 0) then i-1 else j-1 in
+                  let f1 = place_all (next_i) (next_j) in
+                    place_hex([i,j]) ~ f1
+               )
+        ) in
+         place_all (10)(10)

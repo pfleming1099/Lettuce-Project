@@ -1,0 +1,11 @@
+let popsicle = hline(1) ~ ( circle(0.05) -> [1.05,0]) in
+ let place_pop = function (ang) popsicle // ang in
+  let delta = 3.1415/15 in 
+    letrec make_k = function (k) function (theta)
+                       if (k <= 0) then place_pop (theta)
+                                   else place_pop (theta) ~ make_k (k-1) (theta + delta)
+         in
+      let f1 = make_k (3)(delta) in
+        let f2 = ref_x(f1) in
+          let f3 = ref_y(f1 ~ f2) in
+              f1 ~ f2 ~ f3

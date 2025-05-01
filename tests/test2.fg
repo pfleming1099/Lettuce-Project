@@ -1,0 +1,3 @@
+let piBy3 = 3.1415/3 in 
+ let x = hline(10) in
+   x +|+ (x // piBy3) +|+ (x // -1.0 * piBy3) +|+ x

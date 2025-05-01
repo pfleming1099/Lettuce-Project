@@ -1,0 +1,6 @@
+
+let x = 41 in
+  let f = rectangle(x) in
+    let g = circle(2 * x) in
+      ((f -> [-20, -20]) ~ g)
+

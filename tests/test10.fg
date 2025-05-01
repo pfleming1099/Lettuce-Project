@@ -1,0 +1,12 @@
+let initial = hline(10) in
+ let pi = 3.1415 in 
+  let iter_once = function (x) (
+        ( (x // (-1.0 * pi/4)) ~  ( (ref_x( ref_y(x) -> [10, 0]) // (pi/4)) -> [7.07106, -7.07106] )) ** 0.707106
+      ) in
+   letrec  iter_k_times = function (k) function (x) (
+         if (k <= 0) then x else (
+             let y =  iter_once(x) in 
+                  (iter_k_times (k-1) (y))
+            )
+    ) in
+      iter_k_times (14) (initial)

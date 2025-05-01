@@ -1,0 +1,10 @@
+letrec serp = function (n) function (l)  (
+       if (n <= 0)
+       then ( triangle(l)+|+triangle(l) ) +^+ ( triangle(l) ) 
+       else (
+         let t = serp(n-1)(l) in 
+            (t +|+ t) +^+ t
+      )
+ ) in
+  let sp =   serp(5)(10) in
+   sp 

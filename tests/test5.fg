@@ -1,0 +1,10 @@
+let n = 20 in
+ let pi = 3.1415 in 
+  let tri = triangle(1) in
+   let ang = 2* pi/n in 
+    letrec foo = function (n) (
+              if (n <= 0)
+              then (tri // (n * ang))
+              else (tri // (n * ang)) ~ foo(n-1)
+      )
+      in foo(n) ~ (circle(0.9) ~ circle(0.95) ~ circle(1))
